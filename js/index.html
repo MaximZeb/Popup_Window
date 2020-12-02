@@ -5,20 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script type="text/javascript" src="js/pupup.js" async></script>
-  <link rel="stylesheet" href="../css/popup.css"></link>
+  <link rel="stylesheet" href="../css/cs/popup.css"></link>
 </head>
 <body>
- <div class="text">
- 	Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis consectetur alias laudantium cupiditate, mollitia, voluptates dicta nulla unde natus aspernatur explicabo nam tenetur, minus facilis odio harum. Asperiores, animi.
-  </div>
+<div id="text"class="Text">
+Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis consectetur alias laudantium cupiditate, mollitia, voluptates dicta nulla unde natus aspernatur explicabo nam tenetur, minus facilis odio harum. Asperiores, animi.
+</div>
+<a href="#popup" class="" >Вызвать POPUP</a>
+<!-- попап окно -->
 <div id="popup" class="popup">
+  <!--Можно закрыть с помощью клика на пустую часть-->
+  <a id="#text" href="" class="popup_area"></a>
     <div class="popup_body">
       <div class="popup_content">
+        <!-- Кнопка которая закрывает попап -->
+        <a href="#" class="popup_close">X</a>
          <div class="popup_title">
             Это модальное окон №1
           </div>
           <div class="popup_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sapiente hic, laborum? Ullam nulla vel, quae hic molestias officia atque dignissimos ab excepturi dolorum, amet. Laborum veniam sapiente numquam earum?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquid tenetur id cum aperiam velit deserunt aspernatur laboriosam perspiciatis placeat excepturi dignissimos exercitationem totam quod iste inventore, assumenda animi iure.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro rerum praesentium, odio sapiente maxime maiores et doloremque voluptate velit, harum necessitatibus tempore repellendus enim deleniti obcaecati temporibus odit voluptatum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sapiente, est consequatur iure beatae minus consequuntur a rerum, repellat, non maxime eos incidunt laboriosam ex harum sit neque modi amet.
           </div>
       </div>
   </div> 
